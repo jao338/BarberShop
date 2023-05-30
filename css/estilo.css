@@ -1,0 +1,26 @@
+
+
+.sec {
+    height: 100vh;
+}
+
+#sec2 {
+    height: 70vh;
+    padding-top: 10vh;
+
+}
+
+.destaque {
+    margin: 0;
+    width: 100vw;
+    height: 30vh;
+    background-color: #000000;
+    color: #FFFFFF;
+    font-size: 25px;
+}
+
+.destaque > p {
+    width: 50vw;
+    line-height: normal;
+}
+

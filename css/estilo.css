@@ -1,5 +1,3 @@
-
-
 .sec {
     height: 100vh;
 }
@@ -11,6 +9,11 @@
 
 #sec3 {
     height: 40vh;
+}
+
+#sec4 {
+    height: 25vh;
+    padding-top: 10vh;
 }
 
 .destaque {
@@ -31,3 +34,6 @@
     margin-bottom: 15px;
 }
 
+.foto-galeria {
+    padding: 15px;
+}

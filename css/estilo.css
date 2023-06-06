@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
 .sec {
     height: 100vh;
 }
@@ -8,14 +14,18 @@
 }
 
 #sec4 {
-    height: 25vh;
+    min-height: 25vh;
     padding-top: 10vh;
+}
+
+#prof {
+    padding-top: 5vh;
 }
 
 .destaque {
     margin: 0;
     width: 100vw;
-    height: 20vh;
+    min-height: 20vh;
     background-color: #000000;
     color: #FFFFFF;
     font-size: 20px;
@@ -37,4 +47,51 @@
 .persona {
     width: 250px;   
     margin-top: 30px;
+}
+
+.img-cli {
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+   
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+.comentario {   
+    width: 40vw;
+}
+
+#rodape {
+    padding-top: 20px;
+    background-color: black;
+    color: #FFFFFF;
+}
+
+.item-menu {
+    color: #A37A46;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.rp-tit {
+    color: #A37A46;
+}
+
+.agendar {
+    padding: 10px;
+    border-radius: 5px;
+    color: #FFFFFF;
+    background-color: #7B020B;
+    border: none;
+}
+
+.navbar-brand > img {
+    width: 100px;
 }

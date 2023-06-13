@@ -103,3 +103,11 @@ body {
     text-align: center;
 }
 
+.btn-agenda {
+    background-color: #A37A46;
+}
+
+.btn-agenda:hover {
+    background-color: #d1a66e;
+    
+}

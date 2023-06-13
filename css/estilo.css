@@ -95,3 +95,11 @@ body {
 .navbar-brand > img {
     width: 100px;
 }
+
+.card-fundo {
+    background-color: #A37A46;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-align: center;
+}
+

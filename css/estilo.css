@@ -115,6 +115,10 @@ body {
     
 }
 
+#titulo{
+    color: black;
+}
+
 .btn-login{
     margin-bottom: 10px;
     top: 430px;
@@ -144,6 +148,18 @@ body {
     outline: none;
 }
 
+.btn-enviar{
+
+    top: 961px;
+    left: 140px;
+    width: 50%;
+    height: 64px;
+    background: var(--unnamed-color-c2c2c2) 0% 0% no-repeat padding-box;
+    background: #C2C2C2 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+    opacity: 1;
+}
+
 .inp{
     top: 219px;
     left: 691px;
@@ -164,4 +180,21 @@ body {
 
 .formulario{
     width: 500px;
+    
+}
+
+.form{
+    width: 400px;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.form > h3{
+    color: #A37A46;
+    font-weight: 800;
+}
+
+.form > p{
+    color: white;
+
 }
